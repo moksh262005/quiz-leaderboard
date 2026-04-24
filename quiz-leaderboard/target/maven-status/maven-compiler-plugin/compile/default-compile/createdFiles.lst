@@ -1,0 +1,8 @@
+com\quiz\model\LeaderboardEntry.class
+com\quiz\model\SubmitRequest.class
+com\quiz\model\PollResponse.class
+com\quiz\model\QuizEvent.class
+com\quiz\service\LeaderboardProcessor.class
+com\quiz\Main.class
+com\quiz\model\SubmitResponse.class
+com\quiz\client\QuizApiClient.class
