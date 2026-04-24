@@ -25,7 +25,7 @@ public class Main {
 
     public static void main(String[] args) {
         // ── 0. Read registration number from args or use default ──────────────
-        String regNo = (args.length > 0) ? args[0] : "2024CS101";
+        String regNo = (args.length > 0) ? args[0] : "RA2311003010474";
         System.out.println("      Quiz Leaderboard System — SRM       ");
         System.out.printf("Registration Number : %s%n%n", regNo);
 
