@@ -30,10 +30,10 @@ Workflow
 
 Features
 
-- ✅ Deduplication using composite key
-- ✅ Robust API handling with retry logic (502/503)
-- ✅ Clean modular design
-- ✅ Error handling & logging
+-  Deduplication using composite key
+-  Robust API handling with retry logic (502/503)
+-  Clean modular design
+-  Error handling & logging
 
 ---
 
@@ -43,3 +43,11 @@ Features
 mvn clean package
 cd target
 java -jar quiz-leaderboard-1.0-SNAPSHOT.jar
+
+Successfully implemented full flow:
+- Polling API (10 iterations)
+- Deduplication
+- Leaderboard aggregation
+- Submission handling
+
+Handled API instability using retry logic (502/503 errors)
